@@ -1,0 +1,17 @@
+<svg width="300" height="200" viewBox="0 0 300 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Building Icon -->
+  <g transform="translate(75, 20)">
+    <!-- Left tall building -->
+    <path d="M0 20 L0 80 L20 80 L20 20 Z" fill="white"/>
+    <!-- Top right building -->
+    <path d="M22 0 L22 45 L55 45 L55 0 Z" fill="white"/>
+    <!-- Bottom right building -->
+    <path d="M30 48 L30 80 L65 80 L65 48 Z" fill="white"/>
+  </g>
+  
+  <!-- RENOVASEE Text -->
+  <text x="150" y="120" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">RENOVASEE</text>
+  
+  <!-- Tagline -->
+  <text x="150" y="145" font-family="Arial, sans-serif" font-size="14" font-weight="300" fill="white" text-anchor="middle">Design &amp; Build Contractor</text>
+</svg>
