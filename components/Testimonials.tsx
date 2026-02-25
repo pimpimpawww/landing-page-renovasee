@@ -80,7 +80,7 @@ export default function Testimonials() {
 
             {/* Testimonial Text */}
             <p className="text-gray-700 text-lg leading-relaxed text-center mb-8 italic">
-              "{testimonials[currentIndex].text}"
+              &ldquo;{testimonials[currentIndex].text}&rdquo;
             </p>
 
             {/* Project Type */}

@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Calculator as CalcIcon, Send } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Calculator() {
   const [formData, setFormData] = useState({
@@ -138,10 +139,11 @@ export default function Calculator() {
 
           {/* Image */}
           <div className="relative h-[400px] lg:h-[600px] rounded-2xl overflow-hidden shadow-2xl">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2031"
               alt="Konstruksi"
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-dark/50 to-transparent flex items-end p-8">
               <div className="text-white">

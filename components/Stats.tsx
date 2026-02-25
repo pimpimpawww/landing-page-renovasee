@@ -53,7 +53,7 @@ export default function Stats() {
     }
 
     return () => observer.disconnect();
-  }, [hasAnimated]);
+  }, [hasAnimated, stats]);
 
   return (
     <section ref={sectionRef} className="py-16 lg:py-20 bg-primary">
