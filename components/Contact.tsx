@@ -4,21 +4,6 @@ export default function Contact() {
   const contacts = [
     {
       icon: MapPin,
-      title: 'Area Semarang',
-      address: 'Jl. Sedayu Kenanga II.',
-      city: 'Sembungharjo. Kota Semarang',
-      type: 'location',
-    },
-    {
-      icon: Phone,
-      title: 'WhatsApp',
-      phone: '0812 1246 4616',
-      contact: 'CP. Nafi',
-      type: 'whatsapp',
-      link: 'https://wa.me/6281212464616',
-    },
-    {
-      icon: MapPin,
       title: 'Area Pemalang',
       address: 'Jl. Karimata No. 6',
       city: 'Mulyoharjo, Kab. Pemalang',
@@ -50,8 +35,8 @@ export default function Contact() {
           </h2>
         </div>
 
-        {/* Contact Cards */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {/* Contact Cards - Only 2 cards centered */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 max-w-3xl mx-auto">
           {contacts.map((contact, index) => (
             <div
               key={index}
